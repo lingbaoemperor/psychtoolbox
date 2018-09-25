@@ -91,7 +91,7 @@ function [my_window,Preferences,success]=initialize_ptb(Preferences)
 
     DrawFormattedText(my_window,'Press key to continue', 'center', Preferences.Screen_Resolution_Y/2+100, [255 255 0], black);
     Screen(my_window,'Flip');
-    KbWait([],2);
+    KbWait(0,2);
 
     Screen(my_window,'FillRect',black);
     %send_trigger('Initialized PTB.',252,Preferences);

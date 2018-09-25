@@ -43,9 +43,6 @@ for k=1:length(animal)
     %animal与vehicle对应关系
     animal_match(N,1) = str2num(num_str);
     animal_match(N,2) = pnum;
-    if str2num(num_str) == 358
-        size(alpha)
-    end
 end
 
 %vehicle
